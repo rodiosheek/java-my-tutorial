@@ -1,15 +1,23 @@
 package com.tutorial.datatypes.primitive;
 
 public class Primitives {
-    public static void main() {
+    public static void run() {
         // byte
         byte byteValue; // default 0
+        System.out.println("Byte.MAX_VALUE: " + Byte.MAX_VALUE); // 127
+        System.out.println("Byte.MIN_VALUE: " + Byte.MIN_VALUE); // -128
         // short
         short shortValue; // default 0
+        System.out.println("Short.MAX_VALUE: " + Short.MAX_VALUE); // 32767
+        System.out.println("Short.MIN_VALUE: " + Short.MIN_VALUE); // -32767
         // int
         int intValue; // default 0
+        System.out.println("Integer.MAX_VALUE: " + Integer.MAX_VALUE); // 2147483647
+        System.out.println("Integer.MIN_VALUE: " + Integer.MIN_VALUE); // -2147483648
         // long
         long longValue; // default 0L
+        System.out.println("Long.MAX_VALUE: " + Long.MAX_VALUE); // 9223372036854775807
+        System.out.println("Long.MIN_VALUE: " + Long.MIN_VALUE); // -9223372036854775808
         // float
         float floatValue; // default 0.0f
         // double
