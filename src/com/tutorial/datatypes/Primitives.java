@@ -1,4 +1,4 @@
-package com.tutorial.datatypes.primitive;
+package com.tutorial.datatypes;
 
 public class Primitives {
     public static void run() {
